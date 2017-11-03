@@ -1,0 +1,41 @@
+body {
+  text-align: center;
+  background-color: rgba(149, 170, 191, .89);
+}
+
+#selfie {
+  height: 150px;
+  width: 200px;
+}
+
+.image {
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+
+.image-holder {
+  position: relative;
+  /*float: left;*/
+}
+
+.header {
+  background-color: rgba(32,119,207, .69);
+  color: white;
+}
+
+.main {
+  width: 100%;
+}
+
+.item {
+  border: solid black 1px;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 60%;
+  overflow: hidden;
+}
+
+p:hover span {
+  color: red;
+}
