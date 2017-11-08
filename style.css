@@ -4,8 +4,24 @@ body {
 }
 
 #selfie {
-  height: 150px;
-  width: 200px;
+  margin-top: -10%;
+  height: 250px;
+  width: 300px;
+  border: white solid 1px;
+  border-left: white solid 1px;
+}
+
+#statement {
+  text-align: center;
+}
+
+#job-links a {
+  text-decoration: none;
+  color: white;
+}
+
+#job-links a:hover {
+  color: cornflowerblue;
 }
 
 .image {
